@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     position: absolute;
-    border: 1px solid #606060;
+    border: 1px solid #404040;
     border-radius: 50%;
 
     background: none;
@@ -15,20 +15,20 @@
 }
 
 #sun {
-    position: absolute;
     width: 3em;
     height: 3em;
-    border-radius: 50%;
+    border: none;
     background-color: #ffe266;
 }
 
 #mercury-orbit {
     width: 7em;
     height: 7em;
+    animation: 100s linear infinite rotation;
 }
 
 #mercury {
-    top: -5px;
+    top: -4px;
     width: 0.5em;
     height: 0.5em;
     background-color: #979797;
@@ -37,6 +37,7 @@
 #venus-orbit {
     width: 11em;
     height: 11em;
+    animation: 120s linear infinite rotation;
 }
 
 #venus {
@@ -49,6 +50,7 @@
 #earth-orbit {
     width: 16em;
     height: 16em;
+    animation: 135s linear infinite rotation;
 }
 
 #earth {
@@ -61,6 +63,7 @@
 #mars-orbit {
     width: 22em;
     height: 22em;
+    animation: 130s linear infinite rotation;
 }
 
 #mars {
@@ -73,10 +76,11 @@
 #jupiter-orbit {
     width: 34em;
     height: 34em;
+    animation: 200s linear infinite rotation;
 }
 
 #jupiter {
-    top: -30px;
+    top: -26px;
     width: 4em;
     height: 4em;
     background-color: #ad735a;
@@ -85,10 +89,11 @@
 #saturn-orbit {
     width: 44em;
     height: 44em;
+    animation: 190s linear infinite rotation;
 }
 
 #saturn {
-    top: -25px;
+    top: -21px;
     width: 3.2em;
     height: 3.2em;
     background-color: #e5b97c;
@@ -97,23 +102,34 @@
 #uranus-orbit {
     width: 54em;
     height: 54em;
+    animation: 240s linear infinite rotation;
 }
 
 #uranus {
-    top: -13px;
+    top: -11px;
     width: 1.6em;
     height: 1.6em;
-    background-color:#59afcd;
+    background-color: #59afcd;
 }
 
 #neptune-orbit {
     width: 62em;
     height: 62em;
+    animation: 260s linear infinite rotation;
 }
 
 #neptune {
-    top: -13px;
+    top: -10px;
     width: 1.4em;
     height: 1.4em;
-    background-color:#3283d1;
+    background-color: #3283d1;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }

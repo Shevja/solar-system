@@ -1,8 +1,6 @@
-.modulation-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.planet:hover {
+    transform: scale(1.2, 1.2);
+    cursor: pointer;
 }
 
 .planet-orbit:hover {
@@ -11,6 +9,14 @@
 
 .planet-orbit:active {
     /* transform: scale(1.2, 1.2); */
+}
+
+#modulation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
 }
 
 #mercury-orbit:hover {
@@ -44,3 +50,4 @@
 #neptune-orbit:hover {
     border-color: #3283d1;
 }
+

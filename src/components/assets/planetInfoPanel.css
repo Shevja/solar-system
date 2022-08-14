@@ -1,0 +1,41 @@
+#info-panel-close-button {
+    width: 7em;
+}
+
+.info-panel {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70vh;
+    background-color: #3c3c3cf5;
+    color: white;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.info-panel-image {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #474747;
+}
+
+.info-panel-title {
+    display: flex;
+    justify-content: space-between;
+    height: min-content;
+    background-color: #47474748;
+}
+
+.info-panel-title p {
+    margin: 0;
+    width: 80%;
+    padding-left: 26px;
+    margin-left: 14px;
+    font-size: 3.6em;
+    border-bottom: 1px solid white;
+}

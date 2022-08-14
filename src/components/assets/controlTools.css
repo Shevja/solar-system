@@ -1,0 +1,12 @@
+#settings {
+    position: absolute;
+    left: 0;
+}
+
+.modulation-control {
+    position: absolute;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+}
