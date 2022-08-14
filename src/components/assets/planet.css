@@ -2,8 +2,11 @@
     display: flex;
     justify-content: center;
     position: absolute;
-    border: 1px solid #646464;
+    border: 1px solid #606060;
     border-radius: 50%;
+
+    background: none;
+    padding: 0;
 }
 
 .planet {
@@ -20,8 +23,8 @@
 }
 
 #mercury-orbit {
-    width: 6em;
-    height: 6em;
+    width: 7em;
+    height: 7em;
 }
 
 #mercury {
@@ -32,8 +35,8 @@
 }
 
 #venus-orbit {
-    width: 10em;
-    height: 10em;
+    width: 11em;
+    height: 11em;
 }
 
 #venus {
@@ -44,8 +47,8 @@
 }
 
 #earth-orbit {
-    width: 14em;
-    height: 14em;
+    width: 16em;
+    height: 16em;
 }
 
 #earth {
@@ -56,8 +59,8 @@
 }
 
 #mars-orbit {
-    width: 18em;
-    height: 18em;
+    width: 22em;
+    height: 22em;
 }
 
 #mars {
@@ -68,8 +71,8 @@
 }
 
 #jupiter-orbit {
-    width: 28em;
-    height: 28em;
+    width: 34em;
+    height: 34em;
 }
 
 #jupiter {
@@ -80,8 +83,8 @@
 }
 
 #saturn-orbit {
-    width: 37em;
-    height: 37em;
+    width: 44em;
+    height: 44em;
 }
 
 #saturn {
@@ -92,8 +95,8 @@
 }
 
 #uranus-orbit {
-    width: 45em;
-    height: 45em;
+    width: 54em;
+    height: 54em;
 }
 
 #uranus {
@@ -104,8 +107,8 @@
 }
 
 #neptune-orbit {
-    width: 52em;
-    height: 52em;
+    width: 62em;
+    height: 62em;
 }
 
 #neptune {

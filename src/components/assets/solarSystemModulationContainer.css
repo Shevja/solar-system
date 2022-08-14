@@ -4,3 +4,43 @@
     align-items: center;
     height: 100vh;
 }
+
+.planet-orbit:hover {
+    cursor: pointer;
+}
+
+.planet-orbit:active {
+    /* transform: scale(1.2, 1.2); */
+}
+
+#mercury-orbit:hover {
+    border-color: #b3b3b3;
+}
+
+#venus-orbit:hover {
+    border-color: #cd7b2e;
+}
+
+#earth-orbit:hover {
+    border-color: #5175b3;
+}
+
+#mars-orbit:hover {
+    border-color: #a5512c;
+}
+
+#jupiter-orbit:hover {
+    border-color: #ad735a;
+}
+
+#saturn-orbit:hover {
+    border-color: #e5b97c;
+}
+
+#uranus-orbit:hover {
+    border-color: #59afcd;
+}
+
+#neptune-orbit:hover {
+    border-color: #3283d1;
+}
