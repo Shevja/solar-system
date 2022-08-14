@@ -1,0 +1,116 @@
+.planet-orbit {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    border: 1px solid #646464;
+    border-radius: 50%;
+}
+
+.planet {
+    position: absolute;
+    border-radius: 50%;
+}
+
+#sun {
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background-color: #ffe266;
+}
+
+#mercury-orbit {
+    width: 6em;
+    height: 6em;
+}
+
+#mercury {
+    top: -5px;
+    width: 0.5em;
+    height: 0.5em;
+    background-color: #979797;
+}
+
+#venus-orbit {
+    width: 10em;
+    height: 10em;
+}
+
+#venus {
+    top: -6px;
+    width: 0.8em;
+    height: 0.8em;
+    background-color: #cd7b2e;
+}
+
+#earth-orbit {
+    width: 14em;
+    height: 14em;
+}
+
+#earth {
+    top: -8px;
+    width: 1em;
+    height: 1em;
+    background-color: #5175b3;
+}
+
+#mars-orbit {
+    width: 18em;
+    height: 18em;
+}
+
+#mars {
+    top: -5px;
+    width: 0.6em;
+    height: 0.6em;
+    background-color: #a5512c;
+}
+
+#jupiter-orbit {
+    width: 28em;
+    height: 28em;
+}
+
+#jupiter {
+    top: -30px;
+    width: 4em;
+    height: 4em;
+    background-color: #ad735a;
+}
+
+#saturn-orbit {
+    width: 37em;
+    height: 37em;
+}
+
+#saturn {
+    top: -25px;
+    width: 3.2em;
+    height: 3.2em;
+    background-color: #e5b97c;
+}
+
+#uranus-orbit {
+    width: 45em;
+    height: 45em;
+}
+
+#uranus {
+    top: -13px;
+    width: 1.6em;
+    height: 1.6em;
+    background-color:#59afcd;
+}
+
+#neptune-orbit {
+    width: 52em;
+    height: 52em;
+}
+
+#neptune {
+    top: -13px;
+    width: 1.4em;
+    height: 1.4em;
+    background-color:#3283d1;
+}
