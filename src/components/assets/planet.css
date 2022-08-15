@@ -9,6 +9,16 @@
     padding: 0;
 }
 
+.animation_rotation {
+    animation-name: rotation;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.planet-orbit-animation-paused {
+    animation-play-state: paused;
+}
+
 .planet {
     position: absolute;
     border-radius: 50%;
@@ -24,7 +34,11 @@
 #mercury-orbit {
     width: 7em;
     height: 7em;
-    animation: 100s linear infinite rotation;
+    animation-duration: 100s;
+}
+
+#jupiter-tail {
+    width: 20em;
 }
 
 #mercury {
@@ -37,7 +51,7 @@
 #venus-orbit {
     width: 11em;
     height: 11em;
-    animation: 120s linear infinite rotation;
+    animation-duration: 120s;
 }
 
 #venus {
@@ -50,7 +64,7 @@
 #earth-orbit {
     width: 16em;
     height: 16em;
-    animation: 135s linear infinite rotation;
+    animation-duration: 135s;
 }
 
 #earth {
@@ -63,7 +77,7 @@
 #mars-orbit {
     width: 22em;
     height: 22em;
-    animation: 130s linear infinite rotation;
+    animation-duration: 130s;
 }
 
 #mars {
@@ -76,7 +90,7 @@
 #jupiter-orbit {
     width: 34em;
     height: 34em;
-    animation: 200s linear infinite rotation;
+    animation-duration: 200s;
 }
 
 #jupiter {
@@ -89,7 +103,7 @@
 #saturn-orbit {
     width: 44em;
     height: 44em;
-    animation: 190s linear infinite rotation;
+    animation-duration: 190s;
 }
 
 #saturn {
@@ -99,10 +113,20 @@
     background-color: #e5b97c;
 }
 
+#saturn-belt {
+    width: 157%;
+    margin-left: -1.3em;
+    margin-top: 1em;
+    height: 1em;
+    border: 5px solid #9f744a;
+    border-top: 0;
+    border-radius: 50%;
+}
+
 #uranus-orbit {
     width: 54em;
     height: 54em;
-    animation: 240s linear infinite rotation;
+    animation-duration: 240s;
 }
 
 #uranus {
@@ -115,7 +139,7 @@
 #neptune-orbit {
     width: 62em;
     height: 62em;
-    animation: 260s linear infinite rotation;
+    animation-duration: 260s;
 }
 
 #neptune {

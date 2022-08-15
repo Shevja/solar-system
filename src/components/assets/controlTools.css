@@ -1,12 +1,37 @@
-#settings {
+.control-tool {
     position: absolute;
-    left: 0;
+    z-index: 999;
 }
 
-.modulation-control {
+#settings {
     position: absolute;
+    left: 0
+}
+
+.modulation-modifier {
+    position: fixed;
     right: 0;
 
     display: flex;
     flex-direction: column;
+}
+
+.modulation-control {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.control-tool button {
+    color: #666666;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #666666;
+    font-size: larger;
+    height: 2em;
+}
+
+.control-tool button:hover {
+    cursor: pointer;
+    background-color: rgb(223, 223, 223);
 }
