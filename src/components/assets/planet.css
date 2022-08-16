@@ -22,6 +22,7 @@
 .planet {
     position: absolute;
     border-radius: 50%;
+    transition: .2s;
 }
 
 #sun {
@@ -35,10 +36,6 @@
     width: 7em;
     height: 7em;
     animation-duration: 100s;
-}
-
-#jupiter-tail {
-    width: 20em;
 }
 
 #mercury {

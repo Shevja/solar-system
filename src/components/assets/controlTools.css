@@ -23,6 +23,8 @@
 }
 
 .control-tool button {
+    display: flex;
+    align-items: center;
     color: #666666;
     background-color: transparent;
     border: 0;

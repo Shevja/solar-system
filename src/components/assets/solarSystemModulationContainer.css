@@ -52,19 +52,17 @@
 }
 
 .planet-zoom {
-    transition: .2s;
-    animation: zoomIn 1s linear;
+    width: 40em;
+    height: 40em;
+    /* transform: scale(7); */
+    animation: zoomInPlanet .2s linear;
 }
 
-@keyframes zoomIn {
+@keyframes zoomInPlanet {
     from {
         transform: scale(1);
-        top: -26px;
-        /* transform: rotate(0deg); */
     }
     to {
-        /* transform: rotate(360deg); */
-        transform: scale(7);
-        top: -20px;
+        transform: scale(2);
     }
 }
