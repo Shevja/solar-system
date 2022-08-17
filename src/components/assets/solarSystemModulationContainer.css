@@ -1,4 +1,4 @@
-.planet:hover {
+.planet:not([disabled]):hover {
     transform: scale(1.2, 1.2);
     cursor: pointer;
 }
@@ -51,18 +51,49 @@
     border-color: #3283d1;
 }
 
-.planet-zoom {
-    width: 40em;
-    height: 40em;
+#clone-orbit {
+    border: 0;
+    z-index: 999;
+    width: 35em;
+    height: 35em;
+    animation-duration: 1.5s;
+}
+
+.animation-slide__left {
+    transform: rotate(0deg);
     /* transform: scale(7); */
-    animation: zoomInPlanet .2s linear;
+    animation: zoomInPlanet ease-out;
+}
+
+.animation-zoom {
+    transform: scale(7);
+    animation: zoomIn 1.5s ease-out;
+}
+
+.dev-comment {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    font-size: .8em;
+    color: #545454;
 }
 
 @keyframes zoomInPlanet {
     from {
+        transform: rotate(180deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes zoomIn {
+    from {
         transform: scale(1);
     }
+
     to {
-        transform: scale(2);
+        transform: scale(7);
     }
 }

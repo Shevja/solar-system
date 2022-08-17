@@ -6,13 +6,34 @@
     background-color: #1a1a1a8f;
 }
 
+#info-panel-close-button {
+    background: none;
+    border: none;
+    font-size: 74px;
+    color: white;
+    width: 3em;
+    background-color: #38476e;
+    border-bottom: 1px solid white;
+}
+
+#info-panel-close-button:hover {
+    cursor: pointer;
+    background-color: #3d4d77;
+}
+
+#info-panel-close-button:focus {
+    cursor: pointer;
+    background-color: #303d5e;
+}
+
 .info-panel {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: min-content;
-    background-color: #3c3c3cf5;
+    background-color: #3c3c3c;
     color: white;
+    z-index: 999;
 }
 
 .hidden {
@@ -40,26 +61,12 @@
     border-bottom: 1px solid white;
 }
 
-.info-panel-main-info {
+.info-panel__main-info {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
     margin: 2em 2em 1em 3em;
 }
 
-#info-panel-close-button {
-    background: none;
-    border: none;
-    font-size: 74px;
-    color: white;
-    width: 3em;
-    background-color: #38476e;
-    border-bottom: 1px solid white;
-}
-
-#info-panel-close-button:hover {
-    cursor: pointer;
-    background-color: #3d4d77;
-}
-
-#info-panel-close-button:focus {
-    cursor: pointer;
-    background-color: #303d5e;
+.info-panel__main-info ul {
+    list-style-type: none;
 }
