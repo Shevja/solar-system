@@ -2,17 +2,17 @@ import React from "react";
 import '../assets/controlTools.css'
 import playIcon from '../assets/icons/play.png'
 import pauseIcon from '../assets/icons/pause.png'
+import AboutAppPanel from "./aboutAppPanel";
 
 const ControlTools = () => {
     return (
         <div className="control-tool">
-            <button id="settings">Настройки</button>
+            <button id="settings" onClick={ () => {
+                document.getElementById("about-app-panel").classList.remove('hidden')
+            }}>
+                О сайте
+            </button>
             <div className="modulation-modifier">
-                <button onClick={() => {
-                    console.log('Модуляция в реальном времени')
-                }}>
-                    Модуляция в реальном времени
-                </button>
                 <div style={{ display: 'flex', color: 'white' }}>
                     <p>Скорость анимации</p>
                     <button onClick={() => {

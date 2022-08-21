@@ -1,0 +1,64 @@
+#about-app-panel {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+
+    display: flex;
+    background-color: #3c3c3c;
+    justify-content: space-evenly;
+    height: max-content;
+    padding: 4em 0;
+    color: #d1d1d1;
+    text-align: justify;
+}
+
+#about-app-panel b {
+    color: #ed4b4b;
+}
+
+.about-app-panel__close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 3em;
+    width: 6em;
+    font-size: 1em;
+    background: none;
+    border: none;
+    border-left: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    transition: all .1s;
+}
+
+.about-app-panel__close-button:hover {
+    cursor: pointer;
+    background-color: #913030;
+    border: none;
+}
+
+.about-app-panel__description {
+    width: 22em;
+}
+
+.about-app-panel__remark {
+    width: 24em;
+}
+
+.about-app-panel__sources {
+    width: 14em;
+}
+
+.about-app-panel__sources a {
+    color: #0077ff;
+    outline: none;
+    text-decoration: none;
+    transition: all .1s;
+}
+
+.about-app-panel__sources a:hover {
+    color: #bfddff;
+}
+
+.hidden {
+    display: none !important;
+}
