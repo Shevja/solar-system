@@ -30,7 +30,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: min-content;
+    height: 60vh;
     background-color: #3c3c3c;
     color: white;
     z-index: 999;
@@ -65,8 +65,9 @@
     display: grid;
     grid-template-columns: 3fr 2fr;
     margin: 2em 2em 1em 3em;
+    text-align: justify;
 }
 
 .info-panel__main-info ul {
-    list-style-type: none;
+    list-style-type: none;  
 }
